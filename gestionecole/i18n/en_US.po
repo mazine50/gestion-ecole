@@ -1,0 +1,480 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* gestionecole
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-26 16:24+0000\n"
+"PO-Revision-Date: 2018-01-26 16:24+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,name:gestionecole.absence_list_action
+#: model:ir.ui.menu,name:gestionecole.absence_menu
+msgid "Absence"
+msgstr "Absence"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,name:gestionecole.annesuniversitaire_list_action
+#: model:ir.ui.menu,name:gestionecole.annesuniversitaire_menu
+msgid "Annes universitaire"
+msgstr "Annes universitaire"
+
+#. module: gestionecole
+#: selection:gestionecole.etudiant,sex:0
+msgid "Autre"
+msgstr "Autre"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence_create_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire_create_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_create_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_groupe_create_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire_create_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere_create_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence_create_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire_create_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_create_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_groupe_create_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire_create_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere_create_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence_date
+msgid "Date"
+msgstr "Date"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire_date_debut
+msgid "Date Debut"
+msgstr "Date Debut"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire_date_fin
+msgid "Date Fin"
+msgstr "Date Fin"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_date_naissance
+msgid "Date Naissance"
+msgstr "Date Naissance"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.matier_form_view
+msgid "Description"
+msgstr "Description"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence_display_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire_display_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_display_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_groupe_display_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire_display_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere_display_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur_display_name
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,name:gestionecole.etudiant_list_action
+#: model:ir.ui.menu,name:gestionecole.etudiant_menu
+msgid "Etudiant"
+msgstr "Etudiant"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.etudiant_tree_view
+msgid "Etudiant Tree"
+msgstr "Etudiant Tree"
+
+#. module: gestionecole
+#: selection:gestionecole.etudiant,sex:0
+msgid "Female"
+msgstr "Female"
+
+#. module: gestionecole
+#: selection:gestionecole.groupe,groupe:0
+msgid "Genie Informatique"
+msgstr "Genie Informatique"
+
+#. module: gestionecole
+#: model:ir.ui.menu,name:gestionecole.gestionecole_menu
+msgid "Gestion Absence"
+msgstr "Gestion Absence"
+
+#. module: gestionecole
+#: model:ir.ui.menu,name:gestionecole.main_gestionecole_menu
+msgid "Gestion Ecole"
+msgstr "Gestion Ecole"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,name:gestionecole.groupe_list_action
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_groupe_groupe
+#: model:ir.ui.menu,name:gestionecole.groupe_menu
+#: model:ir.ui.view,arch_db:gestionecole.inscrire_form_view
+msgid "Groupe"
+msgstr "Groupe"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence_id
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire_id
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_id
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_groupe_id
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire_id
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere_id
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur_id
+msgid "ID"
+msgstr "ID"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire_incrire
+msgid "Incrire"
+msgstr "Incrire"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,name:gestionecole.inscrire_list_action
+#: model:ir.ui.menu,name:gestionecole.inscrire_menu
+msgid "Inscrire"
+msgstr "Inscrire"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence___last_update
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire___last_update
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant___last_update
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_groupe___last_update
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire___last_update
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere___last_update
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur___last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence_write_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire_write_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_write_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_groupe_write_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire_write_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere_write_uid
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence_write_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire_write_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_write_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_groupe_write_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire_write_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere_write_date
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur_write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: gestionecole
+#: selection:gestionecole.etudiant,sex:0
+msgid "Male"
+msgstr "Male"
+
+#. module: gestionecole
+#: selection:gestionecole.groupe,groupe:0
+msgid "Managment"
+msgstr "Managment"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,name:gestionecole.matier_list_action
+#: model:ir.ui.menu,name:gestionecole.matier_menu
+msgid "Matier"
+msgstr "Matier"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,name:gestionecole.prof_list_action
+#: model:ir.ui.menu,name:gestionecole.prof_menu
+msgid "Professeur"
+msgstr "Professeur"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere_semestre
+#: model:ir.ui.view,arch_db:gestionecole.matier_form_view
+msgid "Semestre"
+msgstr "Semestre"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_sex
+msgid "Sex"
+msgstr "Sex"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.absence_form_view
+msgid "absence Form"
+msgstr "absence Form"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.absence_tree_view
+msgid "absence Tree"
+msgstr "absence Tree"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_address
+msgid "address"
+msgstr "address"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,help:gestionecole.etudiant_list_action
+msgid "ajoute de l'etudiant"
+msgstr "ajoute de l'etudiant"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,help:gestionecole.annesuniversitaire_list_action
+msgid "ajoute la date d'inscription de l'etudiant"
+msgstr "ajoute la date d'inscription de l'etudiant"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,help:gestionecole.absence_list_action
+msgid "ajouter l'absence du l'etudiant"
+msgstr "ajouter l'absence du l'etudiant"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,help:gestionecole.prof_list_action
+msgid "ajouter un professeur"
+msgstr "ajouter un professeur"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,help:gestionecole.matier_list_action
+msgid "ajouter une matier"
+msgstr "ajouter une matier"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire_anneeuni_id
+#: model:ir.ui.view,arch_db:gestionecole.inscrire_form_view
+msgid "annees univesitare"
+msgstr "annees univesitare"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.annesuniversitaire_form_view
+msgid "annes universitaire Form"
+msgstr "annes universitaire Form"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.annesuniversitaire_tree_view
+msgid "annes universitaire Tree"
+msgstr "annes universitaire Tree"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,help:gestionecole.groupe_list_action
+msgid "creation le groupe de etudiant"
+msgstr "creation le groupe de etudiant"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur_email
+msgid "email"
+msgstr "email"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence_etudiant_id
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire_etudiant_id
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_groupe_etudiant_id
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire_etudiant_id
+msgid "etudiant"
+msgstr "etudiant"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.etudiant_form_view
+msgid "etudiant Form"
+msgstr "etudiant Form"
+
+#. module: gestionecole
+#: model:ir.model,name:gestionecole.model_gestionecole_absence
+msgid "gestionecole.absence"
+msgstr "gestionecole.absence"
+
+#. module: gestionecole
+#: model:ir.model,name:gestionecole.model_gestionecole_annesuniversitaire
+msgid "gestionecole.annesuniversitaire"
+msgstr "gestionecole.annesuniversitaire"
+
+#. module: gestionecole
+#: model:ir.model,name:gestionecole.model_gestionecole_etudiant
+msgid "gestionecole.etudiant"
+msgstr "gestionecole.etudiant"
+
+#. module: gestionecole
+#: model:ir.model,name:gestionecole.model_gestionecole_groupe
+msgid "gestionecole.groupe"
+msgstr "gestionecole.groupe"
+
+#. module: gestionecole
+#: model:ir.model,name:gestionecole.model_gestionecole_inscrire
+msgid "gestionecole.inscrire"
+msgstr "gestionecole.inscrire"
+
+#. module: gestionecole
+#: model:ir.model,name:gestionecole.model_gestionecole_matiere
+msgid "gestionecole.matiere"
+msgstr "gestionecole.matiere"
+
+#. module: gestionecole
+#: model:ir.model,name:gestionecole.model_gestionecole_professeur
+msgid "gestionecole.professeur"
+msgstr "gestionecole.professeur"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_inscrire_groupe_id
+msgid "groupe"
+msgstr "groupe"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.groupe_form_view
+msgid "groupe Form"
+msgstr "groupe Form"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.groupe_tree_view
+msgid "groupe Tree"
+msgstr "groupe Tree"
+
+#. module: gestionecole
+#: model:ir.actions.act_window,help:gestionecole.inscrire_list_action
+msgid "inscription d'un etudiant"
+msgstr "inscription d'un etudiant"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.inscrire_form_view
+msgid "inscrire Form"
+msgstr "inscrire Form"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.inscrire_tree_view
+msgid "inscrire Tree"
+msgstr "inscrire Tree"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence_matier_id
+msgid "matier"
+msgstr "matier"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.matier_form_view
+msgid "matier Form"
+msgstr "matier Form"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.matier_tree_view
+msgid "matier Tree"
+msgstr "matier Tree"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_absence_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_annesuniversitaire_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_groupe_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere_description
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere_name
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur_name
+msgid "nom"
+msgstr "nom"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_prenom
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur_prenom
+msgid "prenom"
+msgstr "prenom"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.prof_form_view
+msgid "prof Form"
+msgstr "prof Form"
+
+#. module: gestionecole
+#: model:ir.ui.view,arch_db:gestionecole.prof_tree_view
+msgid "prof Tree"
+msgstr "prof Tree"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_matiere_prof_id
+msgid "professeur"
+msgstr "professeur"
+
+#. module: gestionecole
+#: selection:gestionecole.matiere,semestre:0
+msgid "semestre 1"
+msgstr "semestre 1"
+
+#. module: gestionecole
+#: selection:gestionecole.matiere,semestre:0
+msgid "semestre 10"
+msgstr "semestre 10"
+
+#. module: gestionecole
+#: selection:gestionecole.matiere,semestre:0
+msgid "semestre 2"
+msgstr "semestre 2"
+
+#. module: gestionecole
+#: selection:gestionecole.matiere,semestre:0
+msgid "semestre 3"
+msgstr "semestre 3"
+
+#. module: gestionecole
+#: selection:gestionecole.matiere,semestre:0
+msgid "semestre 4"
+msgstr "semestre 4"
+
+#. module: gestionecole
+#: selection:gestionecole.matiere,semestre:0
+msgid "semestre 5"
+msgstr "semestre 5"
+
+#. module: gestionecole
+#: selection:gestionecole.matiere,semestre:0
+msgid "semestre 6"
+msgstr "semestre 6"
+
+#. module: gestionecole
+#: selection:gestionecole.matiere,semestre:0
+msgid "semestre 7"
+msgstr "semestre 7"
+
+#. module: gestionecole
+#: selection:gestionecole.matiere,semestre:0
+msgid "semestre 8"
+msgstr "semestre 8"
+
+#. module: gestionecole
+#: selection:gestionecole.matiere,semestre:0
+msgid "semestre 9"
+msgstr "semestre 9"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_professeur_telephone
+msgid "telephone"
+msgstr "telephone"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_telephone_parent
+msgid "telephone parent"
+msgstr "telephone parent"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_telephone_perso
+msgid "telephone personnel"
+msgstr "telephone personnel"
+
+#. module: gestionecole
+#: model:ir.model.fields,field_description:gestionecole.field_gestionecole_etudiant_ville
+msgid "ville"
+msgstr "ville"
+

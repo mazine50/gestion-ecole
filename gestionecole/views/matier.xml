@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+		<record model="ir.ui.view" id="matier_form_view">
+            <field name="name">matiere.form</field>
+            <field name="model">gestionecole.matiere</field>
+            <field name="arch" type="xml">
+                <form string="matier Form">
+                    <sheet>
+                        <group>
+                        	<field name="name"/>
+                         </group>   
+                        <group>
+                        	<field name="prof_id"/>
+                        </group> 
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page> 
+                            <page string="Semestre">
+                                <field name="semestre"/>
+                            </page>                                                       
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+		
+		<record model="ir.ui.view" id="matier_tree_view">
+            <field name="name">matiere.tree</field>
+            <field name="model">gestionecole.matiere</field>
+            <field name="arch" type="xml">
+                <tree string="matier Tree">
+                	<field name="name"/>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+		
+		<record model="ir.actions.act_window" id="matier_list_action">
+            <field name="name">Matier</field>
+            <field name="res_model">gestionecole.matiere</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context" eval="{'search_default_my_courses': 1}"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">ajouter une matier
+                </p>
+            </field>
+        </record>
+
+		
+        <menuitem id="matier_menu" name="Matier" parent="gestionecole_menu"
+                  action="matier_list_action"/>
+
+</odoo>

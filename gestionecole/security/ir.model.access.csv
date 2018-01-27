@@ -1,0 +1,8 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+absence_manager,absence manager,model_gestionecole_absence,group_manager,1,1,1,1
+annesuniversitaire_manager,annesuniversitaire manager,model_gestionecole_annesuniversitaire,group_manager,1,1,1,1
+etudiant_manager,etudiant manager,model_gestionecole_etudiant,group_manager,1,1,1,1
+groupe_manager,groupe manager,model_gestionecole_groupe,group_manager,1,1,1,1
+inscrire_manager,inscrire manager,model_gestionecole_inscrire,group_manager,1,1,1,1
+matiere_manager,matiere manager,model_gestionecole_matiere,group_manager,1,1,1,1
+professeur_manager,professeur manager,model_gestionecole_professeur,group_manager,1,1,1,1

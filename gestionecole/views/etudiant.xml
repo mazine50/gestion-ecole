@@ -35,6 +35,8 @@
                 </tree>
             </field>
         </record>
+        
+        
 		
 		<record model="ir.actions.act_window" id="etudiant_list_action">
             <field name="name">Etudiant</field>

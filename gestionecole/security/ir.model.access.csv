@@ -6,3 +6,10 @@ groupe_manager,groupe manager,model_gestionecole_groupe,group_manager,1,1,1,1
 inscrire_manager,inscrire manager,model_gestionecole_inscrire,group_manager,1,1,1,1
 matiere_manager,matiere manager,model_gestionecole_matiere,group_manager,1,1,1,1
 professeur_manager,professeur manager,model_gestionecole_professeur,group_manager,1,1,1,1
+absence_read_all,absence all,model_gestionecole_absence,,1,0,0,0
+annesuniversitaire_read_all,annesuniversitaire all,model_gestionecole_annesuniversitaire,,1,0,0,0
+etudiant_read_all,etudiant all,model_gestionecole_etudiant,,1,0,0,0
+groupe_read_all,groupe all,model_gestionecole_groupe,,1,0,0,0
+inscrire_read_all,inscrire all,model_gestionecole_inscrire,,1,0,0,0
+matiere_read_all,matiere all,model_gestionecole_matiere,,1,0,0,0
+professeur_read_all,professeur all,model_gestionecole_professeur,,1,0,0,0
